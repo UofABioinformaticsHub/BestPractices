@@ -1,7 +1,8 @@
-# <img src="UoA_logo_col_vert.png" alt="UofALogo" style="width: 100px;"/> University of Adelaide
-# Bioinformatics Hub
+<img src="UoA_logo_col_vert.png" alt="UofALogo" style="width: 120px;"/>
 
-## Best Practices for Bioinformatics Research
+# Best Practices for Bioinformatics Research
+
+## University Of Adelaide - Bioinformatics Hub
 
 Last Revised 22-Jan-2017
 
