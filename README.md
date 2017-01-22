@@ -4,7 +4,7 @@
 
 ## University Of Adelaide - Bioinformatics Hub
 
-Last Revised 22-Jan-2017
+Last Revised 23-Jan-2017
 
 # Reproducible Research
 
@@ -40,7 +40,7 @@ Last Revised 22-Jan-2017
 
 - **Version control is not just for package or software development.**
   - Use version control for _every analysis_!
-  - Where appropriate use private repositories
+  - Only use private repositories if required
 - **Be consistent across an organisation**
   - _Git_ is the version control methodology used by the Bioinformatics Hub
 - **Make incremental changes**
@@ -58,7 +58,7 @@ Last Revised 22-Jan-2017
   - These can include simple things like the presence of a file with the correct name, to verification of the output of a function.
 - **Error Handling:**
   - You will make mistakes! Often.
-  - Write code to fail quickly and loudly on errors
+  - Write code to fail quickly and clearly on errors
   - Write clear error messages
 
 # Data Management
@@ -71,13 +71,13 @@ Last Revised 22-Jan-2017
 
 - **Make the source data read-only**
   - This prevent accidental deletion or editing as a result of poorly written, or copied scripts can easily do this
-  - This setting can easily be temporarily changed was required
+  - This setting can easily be temporarily changed as required
 
 ## Metadata and Study Design are important
 
 - **Always begin an analysis by decribing the data, motivation and the intended path to the results.**
 - **Where possible, make raw data available**
-  - At the least, collaborators should know where to find it.
+  - At the very least, key collaborators should know where to find it.
 
 # Research Collaborations
 
@@ -104,17 +104,21 @@ Last Revised 22-Jan-2017
 ## Operating Systems
 - Ubuntu >14.04 is the preferred OS
 - Mac OSX > 10.9 is also acceptable
-- Windows 10 is not desired, but can be used to provide access to Ubuntu running on this OS. Windows < 10 is not acceptable
+- Windows 10 is not desired, but can be used to provide access to Ubuntu running on this OS.
+Windows < 10 is not acceptable
 
-## Statistical Analysis
-- This is to be perfomed using `R` or `Python`
+## Statistical And General Data Analysis
+- This is to be perfomed using scripting languages such as `R` or `Python`
   - R-Markdown or Sweave are preferred for analysis
+  - Additional languages such as `bash` and `go` are also appropriate
 - Excel, SPSS etc are not acceptable
+
 
 ## Version Control
 - Git is the only acceptable version control system
-- GitHub is the preferred repository, although bitbucket can be used for code with privacy requirements
-- Analysis stored in a private repository must have a minimum of two users with read access
+- https://github.com is the preferred repository, although https://bitbucket.org can be used for code with privacy requirements
+- Analysis stored in a private repository must have a **minimum of two users** with read access or higher
 
 ## Theses and Journal Articles
 - LaTeX is the recommended language for formal documents
+- Avoid Microsoft products to avoid frustration
